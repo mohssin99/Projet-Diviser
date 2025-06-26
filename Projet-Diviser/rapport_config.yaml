@@ -1,0 +1,29 @@
+fichiers:
+  SuiviVehicule:
+    nom_fichier: "Affectation *.xlsx"
+    feuille: SuiviVehicule
+    rapports:
+      multibenne:
+        filtre: MULTIBENNE
+        feuille: MultiBenne
+        dialog: true
+      ampliroll:
+        filtre: AMPLIROLL
+        feuille: Ampliroll
+        dialog: false
+      triporteur:
+        filtre: TRIPORTEUR
+        feuille: Triporteur
+        dialog: false
+  Maintenance:
+    nom_fichier: "Maintenance *.xlsx"
+    feuille: Maintenance
+    rapports:
+      reparations:
+        filtre: REPARATIONS
+        feuille: Reparations
+        dialog: false
+      entretien:
+        filtre: ENTRETIEN
+        feuille: Entretien
+        dialog: false

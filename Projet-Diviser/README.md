@@ -1,0 +1,4 @@
+requirements
+pandas
+openpyxl
+pyinstaller
